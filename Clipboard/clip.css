@@ -1,0 +1,195 @@
+body{
+    font-family: 'Bai Jamjuree';
+}
+.class1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   margin-right: 14%;
+}
+.moi{
+    justify-content: center;
+    text-align: center;
+}
+body{            
+    background-image: url("images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.section1{
+    margin-top: 100px;
+}
+.class2{
+    text-align: center;
+    justify-content: center;
+    padding: 12px;
+    
+}
+#C1{
+    width: 80%;
+}
+.text1{
+    text-align: left;
+    padding-left: px;
+    margin-right: 12px;
+    
+}
+.text2{
+    text-align: center;
+    padding:50px;
+    
+}
+.text3{
+    text-align: center;
+    justify-content: center;
+    padding-top: 90px;
+}
+#first1{
+    margin-top: 60px;
+    width: 40%;
+}
+.text4{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+}
+.stext4{
+    padding: 40px;
+}
+.text5{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.stext5{
+    padding: 45px;
+
+}
+.text6{
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+#bout1{
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 150px;
+    width: 13%;
+    background-color: hsl(171, 66%, 44%);
+    color: aliceblue;
+    width:180px;
+    border: 8px;
+}
+#bout2{
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 150px;
+    width: 13%;
+    background-color: hsl(233, 100%, 69%);
+    color: aliceblue;
+    width: 180px;
+    border: 8px;
+
+}
+footer{
+
+    background-color: rgb(243, 245, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.img{
+    text-align: right;
+
+    color: aquamarine;
+}
+#lo{
+    width: 40px;
+    height: 60%;
+
+
+}
+footer .ul1{
+    display: flex;
+    justify-content: space-around;
+
+}
+div li{
+    list-style-type: none;
+
+}
+
+
+footer .ul1 a{
+    display: block;
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+    margin-left: 40px;
+
+}
+#pr:hover{
+    color: hsl(171, 66%, 44%);
+}
+.tr:hover{
+    color:  hsl(171, 66%, 44%) ;
+}
+.stext5 img{
+width: 70%;
+}
+@media screen and (max-width:500px) {
+    body{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text5{
+flex-direction: column;
+text-align: center;
+    }
+    .text4{
+        flex-direction: column;
+        text-align: center;
+            }
+
+            .text1{
+                text-align: center;
+            }
+
+            .text6{
+                align-items: center;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+            }
+
+            #bout2{
+                margin-top: 12px;
+            }
+
+            .class2{
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+            }
+}
+@media screen and (max-width:500px) {
+ 
+}
+@media screen and (max-width:500px) {
+    .class1{
+flex-direction: column;
+text-align: center;
+    }
+}
+@media screen and (max-width:500px) {
+    .text11, .text5{
+justify-content: center;
+text-align: center;
+text-align: center;
+    }
+}
+@media screen and (max-width:500px) {
+   
+}
